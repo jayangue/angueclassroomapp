@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <head>
+		<title>ANGUE'S CLASSROOM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">*{ padding:0px; margin:0px; box-sizing: border-box; }</style>
+    </head>
+    <body>
+		 <!-- Since the body size depends on the platform we need to seperate it.-->
+		 <div id="body"></div>
+
+		 <!-- ================ Load javascript after html was rendered ======================= -->
+
+		 <!-- CLIENT_SCRIPTS > INTERFACE -->
+		 <script src="_CLIENT_SCRIPTS/Interface/INF_Home.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/Interface/INF_Main.js"></script> 
+
+		 <!-- CLIENT_SCRIPTS > SYSTEM -->
+		 <script src="_CLIENT_SCRIPTS/System/SYS_Data.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/System/SYS_Initializer.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/System/SYS_UI.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/System/SYS_Utils.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/System/SYS_LoginSignin.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/System/SYS_CompViewer.js"></script> 
+		 <script src="_CLIENT_SCRIPTS/System/SYS_LocalStorage.js"></script> 
+		 <!-- -->
+		 <script src="_CLIENT_SCRIPTS/System/socket-io-client.js"></script> 
+
+		  <!-- CLIENT_SCRIPTS > COMPONENTS -->
+		  
+		  <script src="_CLIENT_SCRIPTS/Components/Menu/CMP_Menu.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Slideshow/CMP_Slideshow.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Slideshow/CMP_Slideshow_Data.js"></script>
+		  <script src="_CLIENT_SCRIPTS/Components/Chat/CMP_Chat.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Videoplayer/CMP_Videoplayer.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Videoplayer/CMP_Videoplayer_Data.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Quizer/CMP_Quizer.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Quizer/CMP_Quizer_Core.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Quizer/CMP_Quizer_Editor.js"></script> 
+		  <script src="_CLIENT_SCRIPTS/Components/Quizer/CMP_Quizer_Editor_Core.js"></script> 
+		  
+
+		 <!-- ================ Load javascript after html was rendered ======================= -->
+
+
+		 <!-- Initialize the Application-->
+		 <script>
+			window.onload = function()
+			{
+				SYS_Initializer.start();
+			}
+		 </script>
+
+	</body>
+</html>
